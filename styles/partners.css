@@ -1,0 +1,25 @@
+.section__partners {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 2rem;
+	padding-top: 3rem;
+}
+
+.section__partners img {
+	height: 3rem;
+	mix-blend-mode: multiply;
+}
+
+.partners__paragraph {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 29px;
+	text-align: center;
+	letter-spacing: 0.03em;
+
+	color: #686967;
+}

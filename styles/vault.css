@@ -1,0 +1,49 @@
+.vault-part {
+	display: flex;
+	width: 50%;
+	flex-direction: column;
+}
+
+.vault-part img {
+	width: 100%;
+}
+
+.vault-part__paragraph {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 29px;
+	letter-spacing: 0.02em;
+	padding-top: 2rem;
+
+	color: #686967;
+}
+.vault-part2 {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 29px;
+	text-align: center;
+	letter-spacing: 0.02em;
+
+	padding-left: 15rem;
+	padding-right: 15rem;
+
+	color: #686967;
+}
+
+mark.blue {
+	color: #0098d6;
+	background: none;
+}
+
+@media only screen and (max-width: 600px) {
+	.vault-part {
+		width: 100%;
+	}
+	.vault-part2 {
+		padding: 0;
+	}
+}

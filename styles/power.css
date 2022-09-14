@@ -1,0 +1,52 @@
+.power__h1 {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 104px;
+	text-align: center;
+	letter-spacing: 0.03em;
+
+	color: #0098d6;
+}
+
+.power__text {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 29px;
+	text-align: center;
+	letter-spacing: 0.02em;
+
+	padding-left: 8rem;
+	padding-right: 8rem;
+
+	color: #686967;
+}
+
+.power__text p {
+	padding-bottom: 1rem;
+}
+
+.power__text ul {
+	color: #0098d6;
+	padding-bottom: 1rem;
+	list-style-type: none;
+}
+
+.power__img-container {
+	padding-left: 8rem;
+	padding-right: 8rem;
+}
+
+.power__img-container img {
+	width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+	.power__text,
+	.power__img-container {
+		padding: 0;
+	}
+}

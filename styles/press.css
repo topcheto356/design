@@ -1,0 +1,55 @@
+.press-part {
+	width: 33%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	padding: 1rem;
+}
+
+.press__paragraph {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 0.03em;
+
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+
+	color: #686967;
+}
+
+.press__logo-background {
+	height: 5rem;
+}
+
+.press__logo-background img {
+	background-color: rgba(35, 31, 32, 0.92);
+	padding: 1rem 2rem 1rem 2rem;
+	height: 5rem;
+}
+
+.press__logo img {
+	height: 5rem;
+	mix-blend-mode: multiply;
+}
+
+.press__link {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	text-decoration-line: underline;
+
+	color: #0098d6;
+}
+
+@media only screen and (max-width: 600px) {
+	.press-part {
+		width: 100%;
+	}
+}

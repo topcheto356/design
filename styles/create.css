@@ -1,0 +1,45 @@
+.create {
+	position: relative;
+}
+
+.create__image-container img {
+	height: 20rem;
+	position: absolute;
+	top: -75%;
+	left: 32.5%;
+}
+
+.create-circle {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 4rem;
+	height: 4rem;
+	border: 1px solid #0098d6;
+	background-color: #ffffff;
+	border-radius: 50%;
+
+	color: #0098d6;
+
+	position: absolute;
+	top: 20%;
+	left: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+	.create-circle {
+		left: 80%;
+	}
+
+	.create__image-container img {
+		height: 10rem;
+		top: -10%;
+		left: 32.5%;
+	}
+}
